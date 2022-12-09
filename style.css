@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Outfit", sans-serif, "Libre Baskerville", serif;
+}
+.box1 {
+  background: white;
+  color: black;
+  max-width: 16rem;
+  height: auto;
+  width: 100%;
+  min-height: 24.3rem;
+  border: 3px solid white;
+  border-radius: 20px;
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 15rem;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+  font-size: 16px;
+  padding: 21px;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  font-size: 13px;
+}
